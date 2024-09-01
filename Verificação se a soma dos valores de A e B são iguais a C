@@ -1,0 +1,27 @@
+programa
+{
+     inteiro numA, numB, numC, soma
+	
+	funcao inicio()
+	{
+			escreva("Qual o valor de A? \n")
+		leia(numA)
+	limpa()
+			escreva("Qual o valor de B? \n")
+		leia(numB)
+	limpa()	
+			escreva("Qual o valor de C? \n")
+	     leia(numC)
+	limpa()	
+
+	         soma =(numA + numB)
+
+	         escreva("O valor da soma é " , soma)
+	         se(soma < numC)
+	         escreva("\n A soma é menor \n")
+	         senao
+	         escreva("\n A soma é maior\n")          
+	         
+	          
+	}
+}
