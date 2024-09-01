@@ -1,0 +1,35 @@
+programa
+{
+	inclua biblioteca Util --> U
+     inteiro numero
+	
+	funcao inicio()
+	{
+	  //Algorítmo que descobre se o numero digitado é positivo ou negativo
+		escreva("Digite um número: ")
+		leia(numero)
+
+		se(numero > 0)
+		escreva("O numero é positivo")
+		se(numero == 0)
+		escreva("O numero é igual a zero ou nada")
+		senao se(numero < 0)
+		escreva("O numero é negativo")
+	
+		U.aguarde(2000)
+		impar_par()
+		
+	}
+	funcao impar_par()
+	{
+		escreva("\nDigite um número: ")
+		leia(numero)
+
+		se(numero % 2 == 0){
+
+			escreva(" É par")
+		}
+		senao{
+		escreva("É impar")
+	}
+}
